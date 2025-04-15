@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entre Nosotros</title>
+    <style>
+        body {
+            font-family: 'Cursive', sans-serif;
+            background-color: #fef6fb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 300px;
+            height: auto;
+        }
+
+        .frase-portada {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #7b4b94;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #ffe6f0;
+            border-top: 2px solid #ffccde;
+            border-bottom: 2px solid #ffccde;
+        }
+
+        .menu div {
+            padding: 15px 30px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #a14f7d;
+        }
+
+        .menu div:hover {
+            background-color: #ffdbea;
+        }
+
+        .seccion {
+            display: none;
+            padding: 30px;
+        }
+
+        .seccion img {
+            width: 300px;
+            margin: 10px;
+        }
+
+        .activo {
+            display: block;
+        }
+    </style>
+    <script>
+        function mostrarSeccion(id) {
+            const secciones = document.querySelectorAll('.seccion');
+            secciones.forEach(sec => sec.classList.remove('activo'));
+            document.getElementById(id).classList.add('activo');
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <!-- Logo grande -->
+        <img src="Fotos/logo.jpg" alt="Logo de la página">
+        <div class="frase-portada">
+            “Somos el reflejo de dos almas que, aunque diferentes, caminan juntas con la misma meta: crecer, aprender y dejar una huella que inspire a otros.”
+        </div>
+    </header>
+
+    <div class="menu">
+        <div onclick="mostrarSeccion('inicio')">Inicio</div>
+        <div onclick="mostrarSeccion('historia')">Historia</div>
+        <div onclick="mostrarSeccion('loqueviene')">Lo que viene</div>
+        <div onclick="mostrarSeccion('despedida')">Despedida</div>
+    </div>
+
+    <div id="inicio" class="seccion activo">
+        <h2>Inicio</h2>
+        <img src="Fotos/inicio1.jpg" alt="Anderson">
+        <p>Anderson Félix González</p>
+        <img src="Fotos/inicio2.jpg" alt="Alexandra">
+        <p>Alexandra Dahisa Toussaint Senatus</p>
+        <p>
+            Es el inicio de algo especial. <br>
+            Estamos aprendiendo, creciendo y construyendo nuestro camino. <br>
+            Esto es solo el principio de lo que somos y seremos.
+        </p>
+    </div>
+
+    <div id="historia" class="seccion">
+        <h2>Historia</h2>
+        <p>
+            Este es el camino de nuestra trayectoria a través de los años. 
+            Acompañados de momentos inolvidables y personas que nos ayudaron a forjar nuestro camino.
+        </p>
+
+        <!-- Aquí van las 35 fotos -->
+        <!-- Pega esto tal como está, y asegúrate de que estén en la carpeta Fotos -->
+        <!-- Foto 001 a Foto 035 -->
+        <!-- INICIO BLOQUE DE FOTOS -->
+        <!-- Si el mensaje se corta, te lo mando por partes -->
+
+        <!-- Parte 1 -->
+        <img src="Fotos/Foto 001-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 002-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 003-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 004-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 005-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 006-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 007-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 008-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 009-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 010-ALE.jpg" width="300"><br>
+
+        <!-- Parte 2 -->
+        <img src="Fotos/Foto 011-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 012-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 013-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 014-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 015-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 016-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 017-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 018-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 019-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 020-ALE.jpg" width="300"><br>
+
+        <!-- Parte 3 -->
+        <img src="Fotos/Foto 021-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 022-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 023-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 024-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 025-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 026-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 027-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 028-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 029-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 030-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 031-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 032-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 033-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 034-ALE.jpg" width="300"><br>
+        <img src="Fotos/Foto 035-ALE.jpg" width="300"><br>
+        <!-- FIN BLOQUE DE FOTOS -->
+    </div>
+
+    <div id="loqueviene" class="seccion">
+        <h2>Lo que viene</h2>
+        <img src="Fotos/futuro1.jpg" alt="Anderson futuro chef">
+        <p>Anderson Félix, futuro chef, reconocido mundialmente como el mejor chef dominicano, con estrellas Michelines.</p>
+
+        <img src="Fotos/futuro2.jpg" alt="Alexandra futura abogada">
+        <p>Alexandra Toussaint, futura abogada, reconocida mundialmente, especializada en código penal, para así convertirse en una mujer exitosa y de principios y valores.</p>
+    </div>
+
+    <div id="despedida" class="seccion">
+        <h2>Despedida</h2>
+        <p>
+            A lo largo del tiempo hemos estado forjando nuestro camino con determinación, esfuerzo y pasión. Cada paso, cada error, cada logro ha sido parte de un proceso único que nos define y nos impulsa. Esta página no sólo es una recopilación de fotos o palabras, sino el reflejo de quiénes somos y hasta dónde vamos. Cada uno ha dejado una huella en esta trayectoria, una huella que no sólo simboliza el crecimiento individual, sino la unión, la amistad y los sueños compartidos. Este espacio guarda lo simbólico, lo vivido, lo imaginado y lo que está por venir. <br><br>
+            Gracias por su atención, por creer en nosotros y por acompañarnos en este recorrido maravilloso. <br><br>
+            El futuro es ahora y este es sólo el principio.
+        </p>
+    </div>
+
+</body>
+</html>

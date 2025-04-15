@@ -1,0 +1,61 @@
+body {
+  font-family: cursive;
+  background-color: #fef6f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fde2e4;
+  padding: 10px;
+}
+
+.menu button {
+  background-color: #f9c6d0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.seccion {
+  padding: 20px;
+  text-align: center;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fotos img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 150px;
+  border-radius: 10px;
+}
